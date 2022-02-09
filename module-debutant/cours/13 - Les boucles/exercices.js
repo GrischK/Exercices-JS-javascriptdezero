@@ -113,8 +113,11 @@ function exercice4(longueurGuirlande) { // Ne supprimez/commentez pas cette lign
   // Utilisez la variable longueurGuirlande qui contient le nombre d'étoiles à afficher pour la guirlande
 
   // Décommentez le code de Tom ci-dessous
-  // let ligne = "";
-  // console.log(longueurGuirlande);
+  let ligne = "";
+  for (i =0; i < longueurGuirlande; i = i + 1) {
+    ligne = ligne +"*";
+  }
+  console.log(ligne);
 
   // <===== FIN DE VOTRE CODE CI-DESSUS =====>
 
@@ -127,8 +130,13 @@ function exercice5(longueurGuirlande) { // Ne supprimez/commentez pas cette lign
   // Utilisez la variable longueurGuirlande qui contient la longueur de la guirland à afficher
 
   // Décommentez le code de Tom ci-dessous
-  // let ligne = "";
-  // console.log(longueurGuirlande);
+  let ligne = "";
+  let bulle = "";
+  for (i = 0; i < longueurGuirlande; i = i + 1) {
+    ligne = ligne + "*";
+  }
+
+  console.log(ligne + bulle);
 
   // <===== FIN DE VOTRE CODE CI-DESSUS =====>
 

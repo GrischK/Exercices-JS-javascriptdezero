@@ -36,7 +36,7 @@ console.log("Ligne pour éviter que le débogueur saute à la fin du fichier..."
 // for (let compteur = 0; compteur < 3; compteur = compteur + 1) {
 //   console.log("compteur : " + compteur);
 //   console.log("Instruction de la boucle for");
-// }
+// }  
 
 // console.log("Ligne pour éviter que le débogueur saute à la fin du fichier...");
 
